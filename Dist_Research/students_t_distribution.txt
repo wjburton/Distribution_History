@@ -1,0 +1,29 @@
+
+**When was it created?
+
+**Why was it given the name student's t-distribution?
+(So the story goes)
+William Sealy Gosset worked at Guinness Brewing, which prohibited its employees from publishing any papers, regardless of the contained information. For this reason, instead of using his real name, william used the pseudonym "Student" to avoid getting in trouble with his employer.
+
+The test became well known through the work of Ronald Fisher, who called the distribution 'Student's distribution' and represented the test statistic with the letter t.
+
+**Who created/discovered this distribution?
+William Sealy Gosset
+
+**How was it discovered/created?
+
+**What are the important parameters of this distribution?
+
+**What are the equations for the pdf and cdf?
+
+**Where does this distribution occur in nature?
+
+**Why Was it discovered/created?
+
+**What are the applications of the distribution today?
+
+**What resources were used for this information?
+https://en.wikipedia.org/wiki/Student%27s_t-distribution
+http://seismo.berkeley.edu/~kirchner/eps_120/Odds_n_ends/Students_original_paper.pdf (gossets original paper in Biometrika)
+
+
