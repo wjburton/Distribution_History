@@ -1,0 +1,31 @@
+Students t-distribution
+normal distribution
+standard normal distribution
+F distribution
+chi-squared distribution
+weibull distribution
+logistic distribution
+gamma distribution
+poisson distribution
+uniform distribution
+triangular distribution
+binomial distribution 
+exponential distribution
+bernoulli distribution
+geometric distribution
+generalized gamma distribution
+doubly Non-Central F-Distribution
+doubly Non-Central t-Distribution
+compound poisson distribution
+binormal distribution
+extreme value distribution
+cauchy distribution
+binormal distribution
+beta distribution
+logarithmic distribtion
+multinomial distribution
+negative binomial distribution
+hypergeometric distribution
+hyperexponential distribution
+Pareto Distribution
+
