@@ -8,19 +8,21 @@
 #
 
 library(shiny)
+library(distributInfo)
+
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
   titlePanel(h1('Distribution History')),
   sidebarLayout( position = 'right',
     sidebarPanel(
-      selectInput('dist_dropdown', 'Select a Distribution:', 
+      selectInput('dist_dropdown', 'Select a Distribution:',
                   choices = list('students t-distribution', 'normal distribution',
                                  'standard normal distribution', 'F distribution',
                                  'chi-squared distribution', 'weibull distribution',
                                  'logistic distribution', 'gamma distribution',
                                  'poisson distribution', 'uniform distribution',
-                                 'triangular distribution', 'binomial distribution', 
+                                 'triangular distribution', 'binomial distribution',
                                  'exponential distribution', 'bernoulli distribution',
                                  'geometric distribution', 'generalized gamma distribution',
                                  'doubly Non-Central F-Distribution', 'doubly Non-Central t-Distribution',
@@ -32,7 +34,7 @@ ui <- fluidPage(
                                  'hypergeometric distribution', 'hyperexponential distribution',
                                  'Pareto Distribution'))
     ),
-         x
+    students_test()
   )
 
 )
@@ -42,10 +44,10 @@ ui <- fluidPage(
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-  
-  
-  
-  
+
+
+
+
 }
 
 # Run the application

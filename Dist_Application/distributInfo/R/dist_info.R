@@ -1,11 +1,14 @@
 
+
+#' Content for students distribution
+#' @export
 students_test <- function(){
 
   mainPanel(
     h4('Students t-distribution'),
 
     strong('When was it identified?'),
-    p('The original paper by gosset was published in biometrika was released in 1908'),
+    p('The original paper by gosset was published in biometrika and released in 1908'),
     br(),
 
     strong('Who created/discovered this distribution?'),
@@ -24,19 +27,13 @@ students_test <- function(){
     br(),
 
     strong('What are the important parameters of this distribution?'),
-    p('degrees of freedom available to estimate the error'),
+    p('degrees of freedom available to estimate the error of the statistic in interest'),
 
-    strong('What are the equations for the pdf and cdf?'),
-    p('PDF'),
-    img(src = "students_dist.png", height = 72, width = 144),
-    p('CDF'),
-    img(src = "students_dist_cdf.png", height = 72, width = 144),
-    br(),
-
+    
     strong('Where does this distribution occur in nature?'),
     p('Students distribution does not occur in nature, it occurs because \
-      one is calculating a statistic that is normally distributed from a \
-      small sample size. As the sample size increases, students distribution \
+      one is calculating a statistic that is normally distributed using a \
+      small sample size. As the sample size increases (to infinity), students distribution \
       becomes the standard normal distribution.'),
     br(),
 
@@ -65,8 +62,38 @@ students_test <- function(){
         intervals around parameters who's estimate is normally distributed, hypothesis testing aroung \
         parameters who's estimates are normally distributed"),
 
+    strong('What are the equations for the pdf and cdf?'),
+    p('PDF'),
+    img(src = "students_dist.png", height = 110, width = 400),
+    p('CDF'),
+    img(src = "students_dist_cdf.png", height = 200, width = 400),
+    br(),
+    br(),
+
     strong('What resources were used for this information?'),
-    p('https://en.wikipedia.org/wiki/Student%27s_t-distribution'),
-    p('http://seismo.berkeley.edu/~kirchner/eps_120/Odds_n_ends/Students_original_paper.pdf (gossets original paper in Biometrika')
+    br(),
+    a(href = 'https://en.wikipedia.org/wiki/Student%27s_t-distribution', 'students t distribution - wikipedia'),
+    br(),
+    a(href = 'http://seismo.berkeley.edu/~kirchner/eps_120/Odds_n_ends/Students_original_paper.pdf', 'gossets original paper in Biometrika')
     )
 }
+
+
+
+#' Normal Distribution
+#'@export
+
+normal_distribution <- function() {
+
+
+
+
+
+
+
+
+
+
+
+
+
